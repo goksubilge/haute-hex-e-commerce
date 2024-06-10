@@ -1,0 +1,15 @@
+/* CSS for the slider */
+  .slide {
+  @apply   w-full flex content-center items-center h-full bg-[#f2f2f2] 
+
+  }
+
+  /* CSS for the image within the slide */
+  .slide img {
+    @apply  max-w-full max-h-full object-cover
+    }
+
+    .slider { 
+        @apply relative w-10/12 mx-auto
+      
+    }

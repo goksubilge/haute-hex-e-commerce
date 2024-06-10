@@ -5,7 +5,6 @@
 @layer base {
   h1 {
     @apply text-[58px];
-    @apply text-[#252B42];
     @apply font-bold;
   }
   h2 {
@@ -40,7 +39,6 @@
 }
 
 body {
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

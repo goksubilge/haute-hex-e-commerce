@@ -18,28 +18,25 @@ function Header() {
             <a href="/blog">Contect</a>
             <a href="/pages">Pages</a>
           </nav>
-          <div className="inline-flex flex-1 justify-between text-mainblue">
-            <div className="inline-flex items-center ">
+          <div className="inline-flex flex-1 justify-between items-center text-mainblue gap-3">
+            <div className="inline-flex items-center gap-1">
               <a href="/login" className="w-4 h-4">
                 <IoPersonOutline />
               </a>
               <a href="/login" className="inline-flex items-baseline">
                 Login
               </a>
-              <span>/</span>
-              <a href="/login">Register</a>
+              /<a href="/login">Register</a>
             </div>
-            <div className="flex flex-row items-center">
-              <a href="/search" className="w-4 h-4">
-                <CiSearch />
-              </a>
-              <a href="/basket" className=" w-4 h-4">
-                <SlBasket />
-              </a>
-              <a href="/likes" className="w-4 h-4">
-                <CiHeart />
-              </a>
-            </div>
+            <a href="/search" className="inline-flex">
+              <CiSearch />
+            </a>
+            <a href="/basket" className="inline-flex items-center gap-1">
+              <SlBasket />1
+            </a>
+            <a href="/likes" className="inline-flex items-center gap-1">
+              <CiHeart />2
+            </a>
           </div>
         </header>
       </div>

@@ -25,6 +25,7 @@ module.exports = {
       papayas: {
         textblack: "#252B42",
         textgray: "#737373",
+        textwhite: "#FFFFFF",
       },
     },
     fontFamily: {

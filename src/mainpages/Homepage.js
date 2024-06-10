@@ -1,14 +1,17 @@
 import React from "react";
-import Header from "../layout/Header";
-import Hero from "../layout/Hero";
+import Hero from "../mainpages/Hero";
 import Footer from "../layout/Footer";
-import "../index.css";
+import ShopCardAOne from "../components/ShopCardAOne";
+import ShopCardBTwo from "../components/ShopCardBTwo";
+import ShopCardCThree from "../components/ShopCardCThree";
 
 function Homepage() {
   return (
     <div>
-      <Header />
       <Hero />
+      <ShopCardAOne />
+      <ShopCardBTwo />
+      <ShopCardCThree />
       <Footer />
     </div>
   );

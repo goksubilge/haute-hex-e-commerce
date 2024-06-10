@@ -1,10 +1,16 @@
 
 .button-std{
-    @apply text-white bg-papayas-mainblue;
-    @apply px-4 py-2;
+    @apply bg-mainblue;
+    @apply text-papayas-textwhite;
+    @apply px-10 py-4;
     @apply rounded;
     @apply font-bold;
 }
-.hero{
-    /* background-image: url("./assets/shop-hero-3-product-slide-2.png"); */
+
+body {
+    @apply m-0 p-0;
+}
+
+.container {
+    @apply max-w-full mx-0 my-auto;
 }
